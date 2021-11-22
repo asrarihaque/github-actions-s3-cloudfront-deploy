@@ -1,0 +1,21 @@
+name: 'S3 and CloudFront Deploy'
+description: 'Deploy a static website to AWS S3 and invalidate CloudFront distribution path(s)'
+inputs:
+  folder:
+    description: 'Directory to deploy'
+    required: true
+  bucket:
+    description: 'Name of AWS Bucket'
+    required: true
+  dist-id:
+    description: 'AWS CloudFront distribution ID'
+    required: true
+  invalidation:
+    description: 'AWS CloudFront invalidation path(s)'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'upload-cloud'
+  color: 'orange'
