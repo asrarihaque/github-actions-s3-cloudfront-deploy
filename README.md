@@ -2,7 +2,7 @@
 
 ### Easily deploy a static website to AWS S3 and invalidate CloudFront distribution
 
-This action is based on the work done by lbertenasco on [s3-deploy](https://github.com/lbertenasco/s3-deploy).
+This action is originally coded by lbertenasco on his [Repository](https://github.com/lbertenasco/s3-deploy). This is only a customized version. This repo will not be maintained, we discourage using this other than testing purpose.
 
 ## Usage
 
