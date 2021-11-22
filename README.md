@@ -50,7 +50,7 @@ jobs:
           run: yarn build
 
         - name: Deploy
-          uses: lbertenasco/s3-deploy@v1
+          uses: hnhmena/github-actions-s3-cloudfront-deploy@v1.0
           with:
             folder: build
             bucket: ${{ secrets.S3_BUCKET }}
