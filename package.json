@@ -8,6 +8,10 @@
     "lint": "eslint index.js",
     "package": "ncc build index.js -o dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnhmena/github-actions-s3-cloudfront-deploy"
+  },
   "keywords": [
     "GitHub",
     "Actions",
@@ -17,10 +21,7 @@
     "Upload"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lbertenasco/s3-deploy/issues"
-  },
-  "homepage": "https://github.com/lbertenasco/s3-deploy#readme",
+  "homepage": "https://github.com/hnhmena/github-actions-s3-cloudfront-deploy#readme",
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/exec": "^1.0.4"
